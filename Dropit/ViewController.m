@@ -131,6 +131,7 @@ static const CGSize DROP_SIZE = { 40, 40};
     {
         [self.animator removeBehavior:self.attachment];
         self.gameView.path = nil;
+        //uncomment this
     }
 }
 
